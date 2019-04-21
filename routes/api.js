@@ -26,7 +26,7 @@ const storage = multer.diskStorage({
         cb(null, name+'-'+Date.now()+'.'+ext);
     }
 });
-
+ 
 
 router.get('/get-expenses-name', userAuth,expensesController.getAllExpanceName);
 router.post('/save-expenses', userAuth,expensesController.saveExpances);
