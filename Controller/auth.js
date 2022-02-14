@@ -1,7 +1,7 @@
 const User = require('../Model/user');
 const Admin = require('../Model/admin');
 const Common = require('../utils/response');
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken-=');
 const bcrypt = require('bcryptjs');
 const Config = require('../config/config');
 
