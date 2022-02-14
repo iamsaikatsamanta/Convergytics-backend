@@ -53,7 +53,7 @@ app.use('/users', usersRouter);
 app.use('/api', apiRouter);
 
 app.get('*', (req,res) => {
-  res.redirect('/');
+//   res.redirect('/');
 });
 
 // catch 404 and forward to error handler
